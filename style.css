@@ -1,8 +1,12 @@
 /* cursor blinking*/
 
+body{
+  
+}
+
 .blinking-cursor {
     font-weight: 100;
-    font-size: 30px;
+    font-size: 24px;
     color: #2E3D48;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -59,15 +63,90 @@
 /* icon colourizing*/
 .fa-html5:hover{
    color: rgb(211, 77, 28);
+   transform: scale(1.1);
 }
 
 .fa-css3-alt:hover{
     color: rgb(34, 125, 230);
+    transform: scale(1.1);
 }
 .fa-bootstrap:hover{
     color:  rgb(100, 17, 179);
+    transform: scale(1.1);
 }
 .fa-js-square:hover{
     color: rgb(207, 204, 33);
+    transform: scale(1.1);
+}
+.fa-linkedin:hover{
+    color: rgb(33, 100, 224);
+    transform: scale(1.1);
+}
+.fa-github-square:hover{
+    color:rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+.fa-codepen:hover{
+  color:rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+.fa-stack-overflow:hover{
+  color: rgb(202, 115, 16);
+  transform: scale(1.1);
 }
 
+.wcid-icons{
+  font-size: 3em;
+}
+.htgit-icons{
+  font-size: 3em;
+}
+
+/* Background Colors */
+.header{
+  background: rgb(163, 25, 43);
+}
+
+.contact{
+  background:#64e291;
+}
+.whid{
+  background:#e6e56c;
+}
+.wcid{
+  background: #fec771;
+}
+.wii{
+  background: #eb7070;
+}
+
+/* Form Color Change */
+.form-control{
+  background: transparent;
+  border: transparent;
+}
+
+.form-control:focus{
+  background: transparent;
+  border: transparent;
+}
+.contact a{
+  color: #2E3D48;
+}
+.whid .row{
+  display: none;
+}
+.contact .form-group{
+  display: none;
+}
+.wii a{
+  color: #2E3D48;
+  text-decoration-style: dotted;
+}
+img{
+  border-radius: 50%;
+}
+
+h4, p, .wcid-icons{
+  color: #2E3D48;
+} 
