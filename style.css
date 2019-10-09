@@ -4,6 +4,48 @@ body{
   
 }
 
+p, h1,h4,h5{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h4{
+  font-size: 2em;
+}
+
+
+.wcid-icons, .htgit-icons{
+  text-align: center;
+  
+
+}
+
+.display-4{
+  font-family: 'Poppins';
+  font-weight:normal;
+  font-size: 2em%;
+  color:#2E3D48;
+}
+h4{
+  font-family: 
+}
+.display-5{
+  font-family: 'Poppins';
+  font-size: 1.5em%;
+  font-weight:normal;
+  color:#2E3D48;
+}
+
+img{
+  
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10em;
+  
+}
+
 .blinking-cursor {
     font-weight: 100;
     font-size: 24px;
@@ -96,10 +138,10 @@ body{
 }
 
 .wcid-icons{
-  font-size: 3em;
+  font-size: 5em;
 }
 .htgit-icons{
-  font-size: 3em;
+  font-size: 5em;
 }
 
 /* Background Colors */
@@ -107,7 +149,7 @@ body{
   background: rgb(163, 25, 43);
 }
 
-.contact{
+/* .contact{
   background:#64e291;
 }
 .whid{
@@ -118,7 +160,7 @@ body{
 }
 .wii{
   background: #eb7070;
-}
+} */
 
 /* Form Color Change */
 .form-control{
@@ -143,10 +185,15 @@ body{
   color: #2E3D48;
   text-decoration-style: dotted;
 }
-img{
-  border-radius: 50%;
+
+ 
+.fp-tableCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+p, h1,h4,.wcid-icons, .htgit-icons,.display-4,.display-5, h5{
+  color:rgb(41, 38, 38);
 }
 
-h4, p, .wcid-icons{
-  color: #2E3D48;
-} 
