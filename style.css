@@ -1,151 +1,154 @@
 /* cursor blinking*/
 
-body{
-  
+body {
 }
 
-p, h1,h4,h5{
+p,
+h1,
+h4,
+h5 {
   text-align: center;
   font-size: 1.5em;
 }
 
-h4{
+h4 {
   font-size: 2em;
 }
 
-
-.wcid-icons, .htgit-icons{
+.wcid-icons,
+.htgit-icons {
   text-align: center;
-  
-
 }
 
-.display-4{
-  font-family: 'Poppins';
-  font-weight:normal;
+.display-4 {
+  font-family: "Poppins";
+  font-weight: normal;
   font-size: 2em%;
-  color:#2E3D48;
+  color: #2e3d48;
 }
-h4{
-  font-family: 
+h4 {
+  font-family: ;
 }
-.display-5{
-  font-family: 'Poppins';
+.display-5 {
+  font-family: "Poppins";
   font-size: 1.5em%;
-  font-weight:normal;
-  color:#2E3D48;
+  font-weight: normal;
+  color: #2e3d48;
 }
 
-img{
-  
+img {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 10em;
-  
 }
 
 .blinking-cursor {
-    font-weight: 100;
-    font-size: 24px;
-    color: #2E3D48;
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -ms-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
+  font-weight: 100;
+  font-size: 24px;
+  color: #2e3d48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
   }
-  
-  @keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: black;
-    }
+  50% {
+    color: black;
   }
-  
-  @-moz-keyframes blink {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: black;
-    }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
   }
-  
-  @-webkit-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: black;
-    }
+  50% {
+    color: black;
   }
-  
-  @-ms-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: black;
-    }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
   }
-  
-  @-o-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: black;
-    }
+  50% {
+    color: black;
   }
+}
+
+@-ms-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
 
 /* icon colourizing*/
-.fa-html5:hover{
-   color: rgb(211, 77, 28);
-   transform: scale(1.1);
-}
-
-.fa-css3-alt:hover{
-    color: rgb(34, 125, 230);
-    transform: scale(1.1);
-}
-.fa-bootstrap:hover{
-    color:  rgb(100, 17, 179);
-    transform: scale(1.1);
-}
-.fa-js-square:hover{
-    color: rgb(207, 204, 33);
-    transform: scale(1.1);
-}
-.fa-linkedin:hover{
-    color: rgb(33, 100, 224);
-    transform: scale(1.1);
-}
-.fa-github-square:hover{
-    color:rgb(0, 0, 0);
-    transform: scale(1.1);
-}
-.fa-codepen:hover{
-  color:rgb(0, 0, 0);
+.fa-html5:hover {
+  color: rgb(211, 77, 28);
   transform: scale(1.1);
 }
-.fa-stack-overflow:hover{
+
+.fa-css3-alt:hover {
+  color: rgb(34, 125, 230);
+  transform: scale(1.1);
+}
+.fa-bootstrap:hover {
+  color: rgb(100, 17, 179);
+  transform: scale(1.1);
+}
+.fa-js-square:hover {
+  color: rgb(207, 204, 33);
+  transform: scale(1.1);
+}
+.fa-linkedin:hover {
+  color: rgb(33, 100, 224);
+  transform: scale(1.1);
+}
+.fa-github-square:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+.fa-codepen:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+.fa-stack-overflow:hover {
   color: rgb(202, 115, 16);
   transform: scale(1.1);
 }
 
-.wcid-icons{
+.wcid-icons {
   font-size: 5em;
 }
-.htgit-icons{
+.htgit-icons {
   font-size: 5em;
 }
 
 /* Background Colors */
-.header{
+.header {
   background: rgb(163, 25, 43);
 }
 
@@ -163,37 +166,42 @@ img{
 } */
 
 /* Form Color Change */
-.form-control{
+.form-control {
   background: transparent;
   border: transparent;
 }
 
-.form-control:focus{
+.form-control:focus {
   background: transparent;
   border: transparent;
 }
-.contact a{
-  color: #2E3D48;
+.contact a {
+  color: #2e3d48;
 }
-.whid .row{
+.whid .row {
   display: none;
 }
-.contact .form-group{
+.contact .form-group {
   display: none;
 }
-.wii a{
-  color: #2E3D48;
+.wii a {
+  color: #2e3d48;
   text-decoration-style: dotted;
 }
 
- 
 .fp-tableCell {
   display: flex;
   align-items: center;
   justify-content: center;
- }
-
-p, h1,h4,.wcid-icons, .htgit-icons,.display-4,.display-5, h5{
-  color:rgb(41, 38, 38);
 }
 
+p,
+h1,
+h4,
+.wcid-icons,
+.htgit-icons,
+.display-4,
+.display-5,
+h5 {
+  color: rgb(41, 38, 38);
+}
