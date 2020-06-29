@@ -24,7 +24,6 @@ h4 {
   font-family: "Poppins";
   font-weight: normal;
   font-size: 2em%;
-  color: #2e3d48;
 }
 h4 {
   font-family: ;
@@ -44,99 +43,71 @@ img {
   height: 10em;
 }
 
-.blinking-cursor {
-  font-weight: 100;
-  font-size: 24px;
-  color: #2e3d48;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-o-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
 /* icon colourizing*/
-.fa-html5:hover {
+.fa-html5 {
   color: rgb(211, 77, 28);
+}
+
+.fa-html5:hover {
   transform: scale(1.1);
+}
+
+.fa-css3-alt {
+  color: rgb(34, 125, 230);
 }
 
 .fa-css3-alt:hover {
   color: rgb(34, 125, 230);
   transform: scale(1.1);
 }
+
+.fa-bootstrap {
+  color: rgb(100, 17, 179);
+}
+
 .fa-bootstrap:hover {
   color: rgb(100, 17, 179);
   transform: scale(1.1);
 }
+
+.fa-js-square {
+  color: rgb(207, 204, 33);
+}
+
 .fa-js-square:hover {
   color: rgb(207, 204, 33);
   transform: scale(1.1);
 }
+
+.fa-linkedin {
+  color: rgb(33, 100, 224);
+}
+
 .fa-linkedin:hover {
   color: rgb(33, 100, 224);
   transform: scale(1.1);
 }
+
+.fa-github-square {
+  color: rgb(0, 0, 0);
+}
+
 .fa-github-square:hover {
   color: rgb(0, 0, 0);
   transform: scale(1.1);
 }
-.fa-codepen:hover {
+
+.fa-codepen {
   color: rgb(0, 0, 0);
+}
+.fa-codepen:hover {
   transform: scale(1.1);
 }
-.fa-stack-overflow:hover {
+
+.fa-stack-overflow {
   color: rgb(202, 115, 16);
+}
+.fa-stack-overflow:hover {
   transform: scale(1.1);
 }
 
@@ -146,24 +117,6 @@ img {
 .htgit-icons {
   font-size: 5em;
 }
-
-/* Background Colors */
-.header {
-  background: rgb(163, 25, 43);
-}
-
-/* .contact{
-  background:#64e291;
-}
-.whid{
-  background:#e6e56c;
-}
-.wcid{
-  background: #fec771;
-}
-.wii{
-  background: #eb7070;
-} */
 
 /* Form Color Change */
 .form-control {
@@ -198,10 +151,6 @@ img {
 p,
 h1,
 h4,
-.wcid-icons,
-.htgit-icons,
-.display-4,
-.display-5,
 h5 {
   color: rgb(41, 38, 38);
 }
